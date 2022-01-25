@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import pipeline from "./pipeline";
+
 
 function App() {
   return (
@@ -19,6 +21,7 @@ function App() {
         </a>
       </header>
     </div>
+     < pipelines={pipelines}/>
   );
 }
 
