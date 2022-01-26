@@ -1,27 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
-import pipeline from "./pipeline";
+import OrgChartTree from "./pipeline";
 
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-     < pipelines={pipelines}/>
+  <>
+  <div className="tree">This div element has a top margin of 100px, a right margin of 150px, a bottom margin of 100px, and a left margin of 80px.
+     <OrgChartTree/>
+     </div>
+     </>
   );
 }
 
